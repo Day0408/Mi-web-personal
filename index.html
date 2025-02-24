@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Primera Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuente personalizada de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: 'Roboto', sans-serif; /* Cambiamos a Roboto */
+            background: #0000;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .foto {
+            width: 150px;
+            border-radius: 50%;
+            border: 4px solid #FF0F00;
+        }
+        h1 {
+            color: #FF0F00;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #FF0F00;
+            font-size: 2em;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex; /* Flexbox para organizar los hobbies */
+            flex-direction: column;
+            align-items: center;
+        }
+        ul li {
+            background: #333;
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 5px;
+            width: 80%;
+        }
+        a {
+            color: #00ff00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Fondo de imagen */
+        body {
+            background-image: url('fondo.png'); /* Cambia 'fondo.jpg' por tu imagen */
+            background-size: cover;
+            background-position: center;
+        }
+        /* Efecto de transparencia en el contenido */
+        .container {
+            background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+            border-radius: 10px;
+            padding: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Hola! Soy Dayron el Creador</h1>
+        <img src="hoal.jpg" class="foto" alt="Mi foto">
+        <h2>Mis Hobbies</h2>
+        <ul>
+            <li>Programar</li>
+            <li>Juegos Mobiles</li>
+            <li>Usar IA</li>
+        </ul>
+        <h2>Contacto</h2>
+        <a href="https://wa.me/+5359038896">WhatsApp</a>
+    </div>
+</body>
+</html>
